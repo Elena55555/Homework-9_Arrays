@@ -6,7 +6,6 @@ public class Main {
     task1();
     }
 
-
     public static int[] generateRandomArray () {
         java.util.Random random = new java.util.Random();
         int[] arr = new int[30];
@@ -24,9 +23,11 @@ public class Main {
             System.out.println(Arrays.toString(arr));
 
             System.out.println("Домашняя работа № 9 ");
+
             System.out.println(" Задание № 1");
 
             int[] arr1 = generateRandomArray();
+
             int sum = 0;
             for (int index = 0; index < arr1.length; index++) {
                 sum += arr1[index];
@@ -74,6 +75,7 @@ public class Main {
                 averageMean2 = sum2/30;
             }
             System.out.println("Средняя сумма трат за месяц составила " + averageMean2  +" рублей");
+
 
             System.out.println(" Задание № 4");
 

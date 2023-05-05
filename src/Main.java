@@ -63,9 +63,6 @@ public class Main {
             }
             System.out.println(minWeight);
 
-
-
-
             System.out.println(" Задание № 3");
 
             int[] arr2 = generateRandomArray();

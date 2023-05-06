@@ -7,7 +7,6 @@ public class Main {
         task2();
         task3();
         task4();
-
     }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();

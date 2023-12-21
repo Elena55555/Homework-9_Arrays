@@ -32,8 +32,9 @@ public class Main {
     public static void task2() {
         System.out.println("Задание № 2");
         int[] arr_3 = generateRandomArray();
-        int minWeight = -1;
+
         int maxWeight = -1;
+        int minWeight = 200000;
 // Объявляем переменную с максимальным   и минимальным значением
 // Значение переменной меньше любого элемента в массиве
         for (int i = 0; i < arr_3.length; i++) {
@@ -72,6 +73,11 @@ public class Main {
         }
     }
 }
+
+
+
+
+
 
 
 
